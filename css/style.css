@@ -36,7 +36,35 @@ img {
   border-color: #fff;
 }
 
+/* .container-fluid{
+  background-color: pink;
+} */
+
 nav{
-  background-color: blue;
+  background-color: #2C3E50;
   min-height: 100px;
+}
+
+/* section 1 */
+
+.section1{
+  background-color: #1ABC9C;
+  min-height: 400px;
+}
+
+/* section2 */
+.section2{
+  background-color: lightgrey;
+  min-height: 400px;
+}
+
+/* section3 */
+.section3{
+  background-color: #1ABC9C;
+  min-height: 400px;
+}
+
+.section4{
+  background-color: lightgrey;
+  min-height: 400px;
 }
