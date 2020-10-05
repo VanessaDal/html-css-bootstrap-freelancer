@@ -1,0 +1,42 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+} */
+
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 60px;
+  background-color: lightgreen;
+  border: solid 1px  #000;
+}
+
+/* .row .col-6 div  */
+[class*="col-"] > .row > [class*="col-"]{
+  background-color: salmon;
+  border-color: #fff;
+}
+
+nav{
+  background-color: blue;
+  min-height: 100px;
+}
