@@ -26,16 +26,14 @@ img {
 
 /* regole di debug */
 [class*="col-"] {
-  min-height: 60px;
-  background-color: lightgreen;
-  border: solid 1px  #000;
+  /* min-height: 60px; */
 }
 
 /* .row .col-6 div  */
-[class*="col-"] > .row > [class*="col-"]{
+/* [class*="col-"] > .row > [class*="col-"]{
   background-color: salmon;
   border-color: #fff;
-}
+} */
 
 /* .container-fluid{
   background-color: pink;
@@ -235,7 +233,7 @@ min-height: 200px;
 
 .footer-bottom{
   background-color: #1A252F;
-  min-height: 100px;
+  min-height: 60px;
 }
 
 .send-button {
@@ -276,7 +274,6 @@ min-height: 200px;
 #footer-bottom{
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
   color: white;
   font-size: 13px;
 }
