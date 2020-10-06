@@ -3,7 +3,7 @@
 
 
 img {
-  max-width: 100%;
+  max-width:250px;
   height: auto;
 }
 
@@ -61,6 +61,38 @@ nav .navbar-default{
 .section1{
   background-color: #1ABC9C;
   min-height: 400px;
+}
+
+#jumbotron {
+  text-align: center;
+}
+
+#jumbotron h1{
+  color: white;
+  font-size: 60px;
+  padding-top: 10px;
+}
+
+.riga{
+  display:inline-block;
+  width: 100%;
+  max-width: 120px;
+  height: 4px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#star-jumbotron{
+  font-size: 33px;
+  color: white;
+  padding: 0 10px;
+}
+
+#jumbotron h2:nth-child(4){
+  color: white;
+  font-size: 25px;
+  padding-bottom: 70px;
 }
 
 /* section2 */
