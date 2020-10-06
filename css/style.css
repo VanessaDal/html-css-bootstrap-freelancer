@@ -137,14 +137,53 @@ nav .navbar-default{
   margin-bottom: 5px;
 }
 
+#portfolio-bottom{
+  text-align: center;
+}
+
 /* section3 */
 .section3{
   background-color: #1ABC9C;
   min-height: 400px;
+  margin-top: 40px;
 }
 
-#portfolio-bottom{
+#about-top{
   text-align: center;
+}
+
+#about-top h1:first-child{
+  font-size: 50px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+#about-bottom{
+  padding-top: 40px;
+  text-align: left;
+  font-size: 18px;
+  line-height:1.6;
+  color: white;
+}
+
+.download-for-free-button {
+  background-color: #1ABC9C;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#download-for-free{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 70px;
 }
 
 .section4{
