@@ -3,8 +3,10 @@
 
 
 img {
-  max-width:250px;
+  max-width:340px;
   height: auto;
+  border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 /* .no-gutters {
@@ -63,6 +65,11 @@ nav .navbar-default{
   min-height: 400px;
 }
 
+.avatar{
+  max-width:250px;
+  height: auto;
+}
+
 #jumbotron {
   text-align: center;
 }
@@ -71,6 +78,10 @@ nav .navbar-default{
   color: white;
   font-size: 60px;
   padding-top: 10px;
+}
+
+.riga-stella{
+  color: white
 }
 
 .riga{
@@ -83,9 +94,9 @@ nav .navbar-default{
   margin-bottom: 5px;
 }
 
-#star-jumbotron{
+
+#star-star{
   font-size: 33px;
-  color: white;
   padding: 0 10px;
 }
 
@@ -97,14 +108,43 @@ nav .navbar-default{
 
 /* section2 */
 .section2{
-  background-color: lightgrey;
+  background-color: white;
   min-height: 400px;
+}
+
+
+#portfolio-up{
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+#portfolio-up>*{
+  text-align: center;
+  color:#2C3E50;
+}
+
+#portfolio-up h1:first-child{
+  font-size: 50px;
+}
+
+.riga2{
+  display:inline-block;
+  width: 100%;
+  max-width: 120px;
+  height: 4px;
+  background-color: #2C3E50;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 /* section3 */
 .section3{
   background-color: #1ABC9C;
   min-height: 400px;
+}
+
+#portfolio-bottom{
+  text-align: center;
 }
 
 .section4{
