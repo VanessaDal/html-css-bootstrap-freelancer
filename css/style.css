@@ -1,4 +1,7 @@
 /* regole generali */
+ul{
+  list-style: none;
+}
 
 
 
@@ -247,4 +250,33 @@ min-height: 200px;
   font-size: 20px;
   cursor: pointer;
   margin-bottom: 70px;
+}
+
+.social{
+  display: inline;
+  text-align: center;
+}
+
+.social>*{
+  color: white;
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+#footer-top>*{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#footer-bottom{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 13px;
 }
