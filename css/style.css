@@ -186,9 +186,41 @@ nav .navbar-default{
   padding-bottom: 70px;
 }
 
+/* section 4 */
+
 .section4{
-  background-color: lightgrey;
+  background-color: white;
   min-height: 400px;
+}
+
+#contact-me-top>*{
+  text-align: center;
+  color: #2C3E50;
+}
+
+#contact-me-top h1:first-child{
+  font-size: 50px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+input[type="text"],textarea{
+  /* padding: 10px 200px; */
+  border: none;
+  line-height: 2em;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #6C757D;
+}
+
+#contact-form{
+  text-align: center;
+  padding-top: 40px;
+}
+
+hr{
+border-color: #6C757D;
 }
 
 /* footer */
@@ -201,4 +233,18 @@ min-height: 200px;
 .footer-bottom{
   background-color: #1A252F;
   min-height: 100px;
+}
+
+.send-button {
+  background-color: #1ABC9C;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 70px;
 }
