@@ -41,6 +41,21 @@ nav{
   min-height: 100px;
 }
 
+nav .navbar-default{
+    background-color: #2C3E50;
+    border: none;
+    padding-top: 20px;
+}
+
+.navbar-default .navbar-right>li>a {
+  color: white;
+  font-size: 17px;
+}
+
+.navbar-header .navbar-brand{
+  color: white;
+  font-size: 28px;
+}
 /* section 1 */
 
 .section1{
