@@ -6,7 +6,7 @@ ul{
 
 
 img {
-  max-width:340px;
+  max-width:100%;
   height: auto;
   border-radius: 10px;
   margin-bottom: 40px;
@@ -25,7 +25,7 @@ img {
 
 
 /* regole di debug */
-[class*="col-"] {
+/* [class*="col-"] { */
   /* min-height: 60px; */
 }
 
@@ -39,12 +39,16 @@ img {
   background-color: pink;
 } */
 
-nav{
+/* nav bar */
+
+.color-background-blue{
   background-color: #2C3E50;
   min-height: 100px;
+  width: 100%;
 }
 
-nav .navbar-default{
+
+.color-background-blue .navbar-default{
     background-color: #2C3E50;
     border: none;
     padding-top: 20px;
@@ -59,8 +63,8 @@ nav .navbar-default{
   color: white;
   font-size: 28px;
 }
-/* section 1 */
 
+/* section 1 */
 .section1{
   background-color: #1ABC9C;
   min-height: 400px;
